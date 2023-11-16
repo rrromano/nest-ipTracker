@@ -109,6 +109,10 @@ I use the Logger provided by Nest, but by means of an environment variable I can
 - In this model I store a document for each request.
 - Each document has the properties regionName, city, country and distanceToUsa.
 
+### Swagger
+
+By making a request to /api-docs path, I exposed the corresponding swagger with the complete information of both endpoints.
+
 ### Cache Management
 
 - In order to make a more performant api I have implemented the use of a cache.
@@ -122,6 +126,7 @@ I use the Logger provided by Nest, but by means of an environment variable I can
 - Use a more powerful logging tool like winston for example.
 - Cover all the unit tests for each project file.
 - Perform e2e testing.
+- Handling jwt for secure authentication.
 - Perform a correct backup and maintenance of the data model.
 - Deploy the application in two different clusters and use a load balancer.
 
